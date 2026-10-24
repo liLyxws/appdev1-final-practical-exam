@@ -8,12 +8,11 @@ export default function Login() {
     <div className={styles.page}>
       <section className={styles.left}>
         <div className={styles.content}>
-          <h1 className={styles.title}>Get Started Now</h1>
+          <h1 className={styles.title}>Welcome back!</h1>
+          <p className={styles.subtitle}>Enter your Credentials to access your accogit statusunt</p>
 
           <form className={styles.form} onSubmit={(e) => e.preventDefault()}>
             <div className={styles.field}>
-              <label className={styles.label} htmlFor="name">Name</label>
-              <input id="name" type="text" placeholder="Enter your name" className={styles.input} />
             </div>
 
             <div className={styles.field}>
@@ -33,7 +32,7 @@ export default function Login() {
               </span>
             </label>
 
-            <button type="submit" className={styles.submit}>Signup</button>
+            <button type="submit" className={styles.submit}>Login</button>
           </form>
 
           <div className={styles.divider}>Or</div>

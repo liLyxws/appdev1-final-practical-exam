@@ -31,6 +31,7 @@
 }
 
 .blossom {
+  max-width: none;
   display: block;
   width: min(828px, calc((100vh - 100px) * 0.8846));
   max-height: calc(100vh - 100px);

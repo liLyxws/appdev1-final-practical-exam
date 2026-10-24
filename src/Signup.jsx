@@ -1,5 +1,7 @@
 import styles from "./Signup.module.css";
 import blossom from "./assets/blossom-flower.svg";
+import googleIcon from "./assets/icons-google-logo.svg";
+import appleIcon from "./assets/icons-apple-logo.svg";
 
 export default function Signup() {
   return (
@@ -33,6 +35,23 @@ export default function Signup() {
 
             <button type="submit" className={styles.submit}>Signup</button>
           </form>
+
+          <div className={styles.divider}>Or</div>
+
+          <div className={styles.socials}>
+            <button type="button" className={styles.socialBtn}>
+              <img src={googleIcon} alt="" className={styles.socialIcon} />
+              Sign in with Google
+            </button>
+            <button type="button" className={styles.socialBtn}>
+              <img src={appleIcon} alt="" className={styles.socialIcon} />
+              Sign in with Apple
+            </button>
+          </div>
+
+          <p className={styles.bottom}>
+            Have an account? <a href="#" className={styles.link}>Sign In</a>
+          </p>
         </div>
       </section>
       <section className={styles.right}>

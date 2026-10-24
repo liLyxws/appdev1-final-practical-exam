@@ -1,4 +1,5 @@
 import styles from "./Login.module.css";
+import { Input } from "@/components/ui/input";
 import blossom from "./assets/blossom-flower.svg";
 import googleIcon from "./assets/icons-google-logo.svg";
 import appleIcon from "./assets/icons-apple-logo.svg";
@@ -14,7 +15,7 @@ export default function Login() {
           <form className={styles.form} onSubmit={(e) => e.preventDefault()}>
             <div className={styles.field}>
               <label className={styles.label} htmlFor="email">Email address</label>
-              <input id="email" type="email" placeholder="Enter your email" className={styles.input} />
+              <Input id="email" type="email" placeholder="Enter your email" className={styles.input} />
             </div>
 
             <div className={styles.field}>
@@ -22,7 +23,7 @@ export default function Login() {
                 <label className={styles.label} htmlFor="password">Password</label>
                 <a href="#" className={styles.forgot}>forgot password</a>
               </div>
-              <input id="password" type="password" placeholder="Name" className={styles.input} />
+              <Input id="password" type="password" placeholder="Name" className={styles.input} />
             </div>
 
             <label className={styles.checkRow}>

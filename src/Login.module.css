@@ -229,3 +229,7 @@
   color: var(--color-link-dark);
   text-decoration: none;
 }
+
+.input {
+  box-shadow: none;
+}

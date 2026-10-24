@@ -1,3 +1,5 @@
+import Signup from "./Signup.jsx";
+
 export default function App() {
-    return <h1>APPDEV1 Final Project</h1>;
+  return <Signup />;
 }

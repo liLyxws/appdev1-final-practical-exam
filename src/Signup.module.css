@@ -1,0 +1,36 @@
+.page {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  background: #fff;
+}
+
+.left {
+  flex: 0 0 637px;
+  min-width: 0;
+}
+
+.right {
+  flex: 1;
+  min-width: 0;
+  padding-top: 40px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.blossom {
+  display: block;
+  width: min(828px, calc((100vh - 100px) * 0.8846));
+  max-height: calc(100vh - 100px);
+  height: auto;
+  object-fit: contain;
+  object-position: top left;
+  margin-left: 40px;
+}
+
+
+.blossom {
+  margin-left: 230px;
+}

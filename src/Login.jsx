@@ -47,7 +47,7 @@ export default function Login() {
           </div>
 
           <p className={styles.bottom}>
-            Have an account? <a href="#" className={styles.link}>Sign In</a>
+            Don&rsquo;t have an account? <a href="#" className={styles.link}>Sign Up</a>
           </p>
         </div>
       </section>

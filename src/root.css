@@ -1,0 +1,58 @@
+:root {
+  /* Colors */
+  --color-brand: #3A5B22;
+  --color-link: #0F3DDE;
+  --color-link-dark: #0C2A92;
+  --color-stroke: #D8D8D8;
+  --color-divider: #E6E6E6;
+  --color-placeholder: #C4C4C4;
+  --color-white: #fff;
+  --color-black: #000;
+
+  /* Typography */
+  --font-main: "Poppins", sans-serif;
+  --font-size-title: 32px;
+  --font-size-base: 16px;
+  --font-size-md: 14px;
+  --font-size-sm: 12px;
+  --font-size-xs: 10px;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --line-height-title: 48px;
+  --line-height-text: 24px;
+  --line-height-small: 20px;
+
+  /* Spacing */
+  --space-xs: 4px;
+  --space-link: 6px;
+  --space-sm: 8px;
+  --space-icon: 10px;
+  --space-md: 12px;
+  --space-field: 17px;
+  --space-lg: 22px;
+  --space-xl: 24px;
+  --space-2xl: 28px;
+  --space-title: 58px;
+  --space-divider-top: 60px;
+  --space-divider-bottom: 64px;
+  --space-divider-top-login: 37px;
+  --space-divider-bottom-login: 88px;
+
+  /* Layout and sizes */
+  --left-width: 637px;
+  --left-padding-top: 200px;
+  --left-padding-top-login: 227px;
+  --left-padding-left: 172px;
+  --image-offset-top: 65px;
+  --image-width: 828px;
+  --image-height: 936px;
+  --form-width: 400px;
+  --control-height: 32px;
+  --checkbox-size: 12px;
+  --icon-size: 24px;
+  --border-width: 1px;
+
+  /* Shape */
+  --radius-field: 8px;
+}
